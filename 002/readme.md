@@ -2,8 +2,7 @@
 
 # Instaluję traefik na mini serwerze z dockerem
 
-[![Instaluję traefik na mini serwerze z dockerem](https://i9.ytimg.com/vi/o_GZKzJf2Cs/mqdefault.jpg?v=67b06f62&sqp=COigo74G&rs=AOn4CLBqS4Mvkh1wiveg1aUJ-ifK7xceeQ) 
-https://youtu.be/o_GZKzJf2Cs](https://youtu.be/o_GZKzJf2Cs)
+[youtu.be/o_GZKzJf2Cs](https://youtu.be/o_GZKzJf2Cs)
 
 ---
 

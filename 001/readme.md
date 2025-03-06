@@ -2,8 +2,7 @@
 
 # Jak zamienić Orange Pi 5 w webserver?
 
-[![Jak zamienić Orange Pi 5 w webserver?](https://i9.ytimg.com/vi/tPx3Y3KTgJQ/mqdefault.jpg?v=679bb30b&sqp=COigo74G&rs=AOn4CLBnKFVbVyBDY47wcibVKsOzqZ0e1g) 
-https://youtu.be/tPx3Y3KTgJQ](https://youtu.be/tPx3Y3KTgJQ)
+[youtu.be/tPx3Y3KTgJQ](https://youtu.be/tPx3Y3KTgJQ)
 
 ---
 
