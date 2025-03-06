@@ -1,0 +1,44 @@
+http:
+  middlewares:
+    security-headers:
+      headers:
+        customResponseHeaders:
+          X-Robots-Tag: "none,noarchive,nosnippet,notranslate,noimageindex"
+          Server: ""
+          X-Powered-By: ""
+          X-Forwarded-Proto: "https"
+          Permissions-Policy: "geolocation=(), camera=(), microphone=(), usb=()"
+          X-Download-Options: "noopen"
+        sslProxyHeaders:
+          X-Forwarded-Proto: "https"
+        hostsProxyHeaders:
+          - "X-Forwarded-Host"
+        customRequestHeaders:
+          X-Forwarded-Proto: "https"
+        contentTypeNosniff: true
+        customFrameOptionsValue: "SAMEORIGIN"
+        browserXssFilter: true
+        referrerPolicy: "strict-origin-when-cross-origin"
+        forceSTSHeader: true
+        stsIncludeSubdomains: true
+        stsSeconds: 63072000
+        stsPreload: true
+        contentSecurityPolicy: "default-src 'self'; script-src 'self' 'unsafe-inline'; object-src 'none'; base-uri 'self'"
+
+    rate-limit:
+      rateLimit:
+        average: 20
+        period: 1
+        burst: 50
+
+    nonwww-redirect:
+      redirectRegex:
+        regex: "^https?://www\\.(.*)"
+        replacement: "https://$1"
+        permanent: true
+
+    www-redirect:
+      redirectRegex:
+        regex: "^https?://([^www.]+\\.[a-zA-Z]{2,})"
+        replacement: "https://www.$1"
+        permanent: true
