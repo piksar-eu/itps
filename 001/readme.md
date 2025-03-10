@@ -59,6 +59,11 @@ docker run hello-world
 docker swarm init
 ```
 
+# autostart dockera
+```sh
+sudo systemctl enable docker
+```
+
 # uruchomienie postgresa w docker swarmie
 ```sh
 # dodanie sieci dockera
